@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <link rel="stylesheet"href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body> 
+    <div class="hero">
+        <div class="blue">
+            <div class="heroHeader">
+                <p>Hi, I'm Austin Davison.</p>
+                <p>I'm a <span class="auto-type"></span></p>
+            </div>
+        </div>
+    </div>
+    <div class="spacer bluetopinkwave"></div>
+    <section class="sec-one pink">
+            <div class="mainTitle"><p>Who am I?</p></div>
+        <div class="paragraph"><p>Hi, I'm Austin Davison and I am an enthusiastic student looking to take part in the 2023 Digital Production and Design T-Level course as I have a keen interest on the sector and would like to land a job in web or game development.</p><p>I enjoy coding as a recreational hobby - creating personal projects such as <a href="https://flumplez.itch.io/hectic-highway">my games</a> - where I have used both <a href="https://unity.com/">unity</a> and <a href="https://godotengine.org/">godot</a> game engines - so I have a lot of experience with the IDE <a href="https://code.visualstudio.com/">Visual Studio Code</a> and some with <a href="https://www.jetbrains.com/idea/">IntelliJ Idea</a>, aswell as Gaming with friends, running a linux (<a href="https://ubuntu.com/">Canonical Ubuntu</a>) game server with a community and being a content creator on the platform YouTube where I have 3.6K Subscribers at the time of writing.</p></div>
+    </section>
+    <div class="spacer pinktopurplewave"></div>
+    <section class="sec-two purple">
+        <p class="mainTitle">My Skills & Experinces</p>
+        <p class="paragraph">Additionally I have experience working in a web development work environment as in year 10 for 1 week I worked at <a href="https://www.lhasalimited.org/">Lhasa Limited</a> with the <a href="https://www.lhasalimited.org/products/Mirabilis.htm">Mirabilis team</a> which involved the use of a <a href="https://spring.io/projects/spring-boot">Spring Boot</a> (Java) Backend and an <a href="https://angularjs.org/">AngularJS</a> (JavaScript & TypeScript) Frontend.</p>
+    </section>
+    <div class="spacer purpletodarkwave"></div>
+    <section class="sec-three dark">
+        <p>My Qualifications</p>
+        <p>Error alias nesciunt sit delectus culpa? Tempore accusamus ipsam eos eum, maxime deleniti unde nulla at atque ratione assumenda quisquam deserunt iure officiis? Totam nesciunt vel vero provident necessitatibus dolores.</p>
+    </section>
+    <div class="spacer bottompagewave"></div>
+</body>
+<script>
+    var typed = new Typed(".auto-type", {
+    strings: ["Coder", "Content Creator", "Gamer"],
+    typeSpeed: 120,
+    backSpeed: 100,
+    loop: true
+})
+
+    // ScrollReveal({ reset: true });  
+    ScrollReveal().reveal('.heroHeader', { delay: 100 });
+    ScrollReveal().reveal('p', { delay: 100 });
+</script>
+</html>

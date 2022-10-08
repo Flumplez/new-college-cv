@@ -72,6 +72,10 @@ section {
     background: #4CBB17;
 }
 
+.lightNavy {
+    background: #004377;
+}
+
 .spacer {
     aspect-ratio: 960/300;
     width: 100%;
@@ -94,6 +98,14 @@ section {
 
 .purpletodarkwave {
     background-image: url('./images/purpletodarkwave.svg');
+}
+
+.lightnavytodarkwave {
+    background-image: url('./images/lightnavytodarkwave.svg');
+}
+
+.purpletolightnavywave {
+    background-image: url('./images/purpletolightnavywave.svg');
 }
 
 ::-webkit-scrollbar {
